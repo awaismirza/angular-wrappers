@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:counto": "ng build angular2-counto --prod",
-    "build:text-mask": "ng build angular2-text-mask --prod",
-    "build:perfect-mask": "ng build ngx-perfect-scrollbar --prod",
+    "build:counto": "ng build angular2-counto",
+    "build:text-mask": "ng build angular2-text-mask",
+    "build:perfect-mask": "ng build ngx-perfect-scrollbar",
     "build:all": "concurrently \"npm run build:counto\" \"npm run build:text-mask\" \"npm run build:perfect-mask\"",
     "watch": "ng build --watch --configuration development",
     "ng-update": "ng update",
@@ -28,8 +28,8 @@
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular/build": "^21.2.8",
-    "@angular/cli": "~21.2.8",
+    "@angular/build": "^21.2.7",
+    "@angular/cli": "~21.2.7",
     "@angular/compiler-cli": "^21.2.8",
     "@types/jasmine": "~4.3.0",
     "@types/signature_pad": "^2.3.6",
@@ -40,7 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "ng-packagr": "^21.2.8",
+    "ng-packagr": "^21.2.2",
     "typescript": "~5.9.3"
   },
   "whitelistedNonPeerDependencies": [
