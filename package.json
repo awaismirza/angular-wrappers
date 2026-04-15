@@ -9,7 +9,7 @@
     "build:perfect-mask": "ng build ngx-perfect-scrollbar --prod",
     "build:all": "concurrently \"npm run build:counto\" \"npm run build:text-mask\" \"npm run build:perfect-mask\"",
     "watch": "ng build --watch --configuration development",
-    "ng-update": "ng update @angular/core@19 @angular/cli@19",
+    "ng-update": "ng update @angular/core20 @angular/cli@20",
     "test": "ng test"
   },
   "private": false,
