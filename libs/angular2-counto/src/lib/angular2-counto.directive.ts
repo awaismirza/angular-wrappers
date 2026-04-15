@@ -1,7 +1,8 @@
 import { Directive, Input, Output, EventEmitter } from '@angular/core';
 
 @Directive({
-  selector: '[counto]'
+    selector: '[counto]',
+    standalone: false
 })
 export class CountoDirective {
   @Output() countoChange = new EventEmitter();
