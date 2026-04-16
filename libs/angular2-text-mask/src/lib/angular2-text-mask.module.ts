@@ -30,10 +30,10 @@ function _isAndroid(): boolean {
 
 @Directive({
     host: {
-        '(input)': '_handleInput($event.target.value)',
+        '(input)': '_handleInput($any($event).target.value)',
         '(blur)': 'onTouched()',
         '(compositionstart)': '_compositionStart()',
-        '(compositionend)': '_compositionEnd($event.target.value)'
+        '(compositionend)': '_compositionEnd($any($event).target.value)'
     },
     selector: '[textMask]',
     exportAs: 'textMask',

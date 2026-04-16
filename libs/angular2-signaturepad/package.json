@@ -1,6 +1,6 @@
 {
   "name": "angular2-signaturepad-ivy",
-  "version": "3.0.5",
+  "version": "3.1.5",
   "description": "Angular2 Component wrapper for szimek / signature_pad",
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 {
-  "name": "Angular-libs",
+  "name": "angular-libs",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,6 +7,7 @@
     "build:counto": "ng build angular2-counto",
     "build:text-mask": "ng build angular2-text-mask",
     "build:perfect-mask": "ng build ngx-perfect-scrollbar",
+    "build:signature-pad": "ng build angular2-signaturepad",
     "build:all": "concurrently \"npm run build:counto\" \"npm run build:text-mask\" \"npm run build:perfect-mask\"",
     "watch": "ng build --watch --configuration development",
     "ng-update": "ng update",
@@ -22,8 +23,11 @@
     "@angular/platform-browser": "^21.2.8",
     "@angular/platform-browser-dynamic": "^21.2.8",
     "@angular/router": "^21.2.8",
+    "perfect-scrollbar": "1.5.0",
+    "resize-observer-polyfill": "^1.5.1",
     "rxjs": "~7.8.0",
     "signature_pad": "^2.3.2",
+    "text-mask-core": "^5.1.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
   },

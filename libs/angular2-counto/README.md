@@ -1,6 +1,6 @@
 # @owaesmirza/angular2-counto
 
-Angular 14+ package for nice count animations
+Angular 16+ package for nice count animations
 
 ## Installation
 ```
@@ -52,6 +52,9 @@ Example with currency pipe:
 Any of above parameters can be freely binded to an event. Every time parameter changes, animation will be executed.
 You can use any pipe you want to modify output to your needs.
 
+##  Bye me a Coffee: https://paypal.me/tipawais
+
 ## Demo
 
 http://izupet.github.io/angular2-counto
+

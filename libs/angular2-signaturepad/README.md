@@ -20,6 +20,9 @@ Options are as per [szimek/signature_pad](https://www.npmjs.com/package/signatur
 * canvasHeight: height of the canvas (px)
 The above options are provided to avoid accessing the DOM directly from your component to adjust the canvas size.
 
+
+## Bye me a Coffee: https://paypal.me/tipawais
+
 ```typescript
 
 // import into app module

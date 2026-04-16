@@ -15,6 +15,8 @@ Run `ng build scrollbar` to build the project. The build artifacts will be store
 
 After building your library with `ng build scrollbar`, go to the dist folder `cd dist/scrollbar` and run `npm publish`.
 
+##  Bye me a Coffee: https://paypal.me/tipawais
+
 ## Running unit tests
 
 Run `ng test scrollbar` to execute the unit tests via [Karma](https://karma-runner.github.io).
